@@ -11,4 +11,9 @@
         android:label="@string/fragment_main"
         tools:layout="@layout/fragment_main">
     </fragment>
+    <fragment
+        android:id="@+id/myBookingsFragment"
+        android:name="com.lksnext.parkingplantilla.view.fragment.MyBookingsFragment"
+        android:label="fragment_my_bookings_fragment"
+        tools:layout="@layout/fragment_my_bookings" />
 </navigation>
